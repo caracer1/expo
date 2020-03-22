@@ -1,0 +1,12 @@
+
+h1 {
+    text-align: center;
+    color: rgb(173, 11, 11);
+}
+
+.main_logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "In-Line",
+      "public": "dist/In-Line",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
